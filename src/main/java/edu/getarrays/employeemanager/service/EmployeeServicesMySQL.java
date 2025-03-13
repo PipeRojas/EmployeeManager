@@ -12,12 +12,8 @@ import java.util.UUID;
 @Service
 public class EmployeeServicesMySQL implements EmployeeServices{
 
-    private final EmployeeRepository employeeRepository;
-
     @Autowired
-    public EmployeeServicesMySQL(EmployeeRepository employeeRepository) {
-        this.employeeRepository = employeeRepository;
-    }
+    private EmployeeRepository employeeRepository;
 
     public Employee addEmployee(Employee employee){
         employee.setEmployeeCode(UUID.randomUUID().toString());

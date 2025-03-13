@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>edu.getarrays</groupId>
-	<artifactId>employeemanager</artifactId>
+	<artifactId>employeemanager_backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employeemanager</name>
 	<description>Employee Manager Tutorial</description>
